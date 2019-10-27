@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Cadastre-se</title>
+</head>
+
+<body bgcolor='beige'>
+
+    <center>
+        <div>
+            <table cellpadding='20' bgcolor='#e0e094' border='0' id='top'>
+                <tr>
+                    <td>
+                        <a href='index.html'><img src='imagens/home.png' width='20' height='20'></a>
+                    </td>
+
+                    <td>
+                        <a href='biografia.html'>Biografia</a>
+                    </td>
+
+                    <td>
+                        <a href='spacex.html'>SpaceX</a>
+                    </td>
+
+                    <td>
+                        <a href='tesla.html'>Tesla, Inc.</a>
+                    </td>
+
+                    <td>
+                        <a href='neuralink.html'>Neuralink</a>
+                    </td>
+
+                    <td>
+                        <a href='thebcompany.html'>The Boring Company</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr />
+    </center>
+
+    <form method='post' action='dados_cadastro'>
+
+        <label for='nome'>Digite seu nome:</label>
+        <br />
+        <input type='text' id='nome' placeholder='Digite seu nome' size='35' required>
+        <br />
+        <br />
+
+        <label for='nascimento'>Digite sua data de nascimento:</label>
+        <br />
+        <input type='date' name='nascimento' placeholder='Digite sua data de nascimento' required>
+        <br />
+        <br />
+
+        <label for='login'>Crie seu login:</label>
+        <br />
+        <input type='text' name='login' required size='15' placeholder='Digite um login'>
+        <br />
+        <br />
+
+        <label for='senha'>Crie sua senha:</label>
+        <br />
+        <input type='password' name='senha' required size='25' placeholder='Digite uma senha'>
+        <br />
+        <br />
+
+        <label for='email'>Digite seu email:</label>
+        <br />
+        <input type='email' name='email' required size='25' placeholder='Digite seu email'>
+        <br />
+        <br />
+
+        <fieldset>
+            <legend>Você deseja receber notificações em seu email?</legend>
+
+            <input type='radio' name='notificacao' value='sim' checked>
+            <label for='notificacao'>Sim</label>
+
+            <input type='radio' name='notificacao' value='nao'>
+            <label for='notificacao'>Não</label>
+        </fieldset>
+        <br />
+
+        <input type='submit' value='Cadastrar'>
+        <input type='reset' value='Limpar'>
+    </form>
+    <br />
+    <br />
+
+
+    <hr />
+    <table cellspacing='10'>
+        <tr>
+            <td>
+                <a href='#top'>Voltar ao topo</a>
+            </td>
+
+            <td>
+                <a href='index.html'>Voltar para a página inicial</a>
+            </td>
+
+            <td>
+                <a href='mailto:elonmusk_site@gmail.com'>Entrar em contato</a>
+            </td>
+
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
